@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/tracker.css">
+  <title>Tracking Tool</title>
+</head>
+
+<body>
+  <p id="result"> </p>
+
+  <div class="form-group col-xs-4 form">
+    <label for="phonenumber">Phone Number</label>
+    <input type="text" class="form-control input-sm" id="phonenumber" aria-describedby="track"
+      placeholder="Enter Phone Number">
+    <button type="button" name="button" class="btn-primary" onclick="locate(phonenumber);">Locate</button>
+    <br>
+    <!-- <small id="tracker" class="form-text- text-muted">Tracker Server is Active ..............</small> -->
+  </div>
+  <div class="parent">
+
+    <div class="animation">
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./js/tracker.js">
+
+  </script>
+</body>
+
+</html>
